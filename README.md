@@ -164,7 +164,7 @@ You might also have to override `toMove()`.
 
 You will add the following method to the `InputHelper` class:
 
-- `public int[] getChessLocation(String prompt)` - repeats the prompt until the user has inputted a correctly formatted chess location, such as 'a1' or 'h8'. Returns an `int` array of size 2, where the first element is the row (0-7) and the second element is the col (0-7).
+- `public int[] getChessLocation(String prompt)` - repeats the prompt until the user has ted a correctly formatted chess location, such as 'a1' or 'h8'. Returns an `int` array of size 2, where the first element is the row (0-7) and the second element is the col (0-7).
   - `a1` should return `[0,0]`
   - `a8` should return `[7,0]`
   - `h1` should return `[0,7]`
